@@ -12,7 +12,8 @@ var a1;
 var a2;
 var a3;
 var a4;
-
+var a = document.createElement('a');  
+var link = document.createTextNode("This is link");
 // Quiz opening page
 function quizopening() {
     highscore.style.visibility = "hidden";
@@ -92,10 +93,10 @@ function question1() {
     a1.remove();
     a2.remove();
     countdown();
-    question.textContent = "Name a visual programming language";
+    question.textContent = "Where was our first date?";
         
     a1 = document.createElement("BUTTON");
-    a1.innerHTML = "Function";
+    a1.innerHTML = "Shopping";
     document.body.children[4].appendChild(a1);
     a1.addEventListener("click", function () {
         wrongcw();
@@ -104,7 +105,7 @@ function question1() {
     });
 
     a2 = document.createElement("BUTTON");
-    a2.innerHTML = "Command";
+    a2.innerHTML = "My bed";
     document.body.children[4].appendChild(a2);
     a2.addEventListener("click", function () {
         wrongcw();
@@ -113,7 +114,7 @@ function question1() {
     });
 
     a3 = document.createElement("BUTTON");
-    a3.innerHTML = "Debugging";
+    a3.innerHTML = "Buffalo Wild Wings";
     document.body.children[4].appendChild(a3);
     a3.addEventListener("click", function () {
         wrongcw();
@@ -122,7 +123,7 @@ function question1() {
     });
 
     a4 = document.createElement("BUTTON");
-    a4.innerHTML = "Scratch";
+    a4.innerHTML = "Wing Thursday";
     document.body.children[4].appendChild(a4);
     a4.addEventListener("click", function () {
         correctcw();
@@ -138,10 +139,10 @@ function question2() {
     a2.remove();
     a3.remove();
     a4.remove();
-    question.textContent = "What is a list of steps to finish a task?";
+    question.textContent = "What's my favorite thing about you?";
        
     a1 = document.createElement("BUTTON");
-    a1.innerHTML = "Loop";
+    a1.innerHTML = "You're beautiful as fook";
     document.body.children[4].appendChild(a1);
     a1.addEventListener("click", function () {
         wrongcw();
@@ -150,7 +151,7 @@ function question2() {
     });
  
     a2 = document.createElement("BUTTON");
-    a2.innerHTML = "Algorithm";
+    a2.innerHTML = "The other 3 options";
     document.body.children[4].appendChild(a2);
     a2.addEventListener("click", function () {
         correctcw();
@@ -159,7 +160,7 @@ function question2() {
     });
 
     a3 = document.createElement("BUTTON");
-    a3.innerHTML = "Loop";
+    a3.innerHTML = "You always want whats best for me";
     document.body.children[4].appendChild(a3);
     a3.addEventListener("click", function () {
         wrongcw();
@@ -168,7 +169,7 @@ function question2() {
     });
 
     a4 = document.createElement("BUTTON");
-    a4.innerHTML = "Event";
+    a4.innerHTML = "You have the kindest heart and sweetest soul";
     document.body.children[4].appendChild(a4);
     a4.addEventListener("click", function () {
         wrongcw();
@@ -183,10 +184,10 @@ function question3() {
     a2.remove();
     a3.remove();
     a4.remove();
-    question.textContent = "Which of the following is not considered a JavaScript operator?";
+    question.textContent = "How did I ask you to be my gf?";
        
     a1 = document.createElement("BUTTON");
-    a1.innerHTML = "new";
+    a1.innerHTML = "*caresses face* You are the most beautiful divine creation from the universe and I wish to partake in adult things and an everlasting loving relationship with you.";
     document.body.children[4].appendChild(a1);
     a1.addEventListener("click", function () {
         wrongcw();
@@ -195,7 +196,7 @@ function question3() {
     });
  
     a2 = document.createElement("BUTTON");
-    a2.innerHTML = "this";
+    a2.innerHTML = "*makes out with you* uh will you b my gf c:";
     document.body.children[4].appendChild(a2);
     a2.addEventListener("click", function () {
         correctcw();
@@ -204,7 +205,7 @@ function question3() {
     });
 
     a3 = document.createElement("BUTTON");
-    a3.innerHTML = "delete";
+    a3.innerHTML = "Date me or I will cry";
     document.body.children[4].appendChild(a3);
     a3.addEventListener("click", function () {
         wrongcw();
@@ -213,7 +214,7 @@ function question3() {
     });
 
     a4 = document.createElement("BUTTON");
-    a4.innerHTML = "typeof";
+    a4.innerHTML = "*never actually asks you out n we proceed to date without a title*";
     document.body.children[4].appendChild(a4);
     a4.addEventListener("click", function () {
         wrongcw();
@@ -228,10 +229,10 @@ function question4() {
     a2.remove();
     a3.remove();
     a4.remove();
-    question.textContent = "JavaScript is interpreted by ____";
+    question.textContent = "How long will we last for?";
        
     a1 = document.createElement("BUTTON");
-    a1.innerHTML = "Client";
+    a1.innerHTML = "foreeverrrrrrrrr";
     document.body.children[4].appendChild(a1);
     a1.addEventListener("click", function () {
         correctcw();
@@ -240,7 +241,7 @@ function question4() {
     });
  
     a2 = document.createElement("BUTTON");
-    a2.innerHTML = "Server";
+    a2.innerHTML = "lol youre leavin my ass";
     document.body.children[4].appendChild(a2);
     a2.addEventListener("click", function () {
         wrongcw();
@@ -249,7 +250,7 @@ function question4() {
     });
 
     a3 = document.createElement("BUTTON");
-    a3.innerHTML = "Oject";
+    a3.innerHTML = "for as long as Destiny doesnt mess up";
     document.body.children[4].appendChild(a3);
     a3.addEventListener("click", function () {
         wrongcw();
@@ -258,7 +259,7 @@ function question4() {
     });
 
     a4 = document.createElement("BUTTON");
-    a4.innerHTML = "None of these";
+    a4.innerHTML = "mmmmm idk";
     document.body.children[4].appendChild(a4);
     a4.addEventListener("click", function () {
         wrongcw();
@@ -273,269 +274,44 @@ function question5() {
     a2.remove();
     a3.remove();
     a4.remove();
-    question.textContent = "____method evaluates a string of JavaScript code in the context of the specified object.";
+    question.textContent = "Will you b my valentine???????";
        
     a1 = document.createElement("BUTTON");
-    a1.innerHTML = "Evparse";
+    a1.innerHTML = "no";
     document.body.children[4].appendChild(a1);
     a1.addEventListener("click", function () {
-        wrongcw();
-        question6();
-        wrong();
-    });
- 
-    a2 = document.createElement("BUTTON");
-    a2.innerHTML = "Parsclick";
-    document.body.children[4].appendChild(a2);
-    a2.addEventListener("click", function () {
-        wrongcw();
-        question6();
-        wrong();
-    });
-
-    a3 = document.createElement("BUTTON");
-    a3.innerHTML = "ParseInt";
-    document.body.children[4].appendChild(a3);
-    a3.addEventListener("click", function () {
-        wrongcw();
-        question6();
-        wrong();
-    });
-
-    a4 = document.createElement("BUTTON");
-    a4.innerHTML = "Eval";
-    document.body.children[4].appendChild(a4);
-    a4.addEventListener("click", function () {
-        correctcw();
-        question6();
-        correct();
-    });
-}
-
-// Q #6
-function question6() {
-    a1.remove();
-    a2.remove();
-    a3.remove();
-    a4.remove();
-    question.textContent = "The C in CSS stands for: ";
-       
-    a1 = document.createElement("BUTTON");
-    a1.innerHTML = "Cursive";
-    document.body.children[4].appendChild(a1);
-    a1.addEventListener("click", function () {
-        wrongcw();
-        question7()
-        wrong();
-    });
- 
-    a2 = document.createElement("BUTTON");
-    a2.innerHTML = "Coded";
-    document.body.children[4].appendChild(a2);
-    a2.addEventListener("click", function () {
-        wrongcw();
-        question7()
-        wrong();
-    });
-
-    a3 = document.createElement("BUTTON");
-    a3.innerHTML = "Cascading";
-    document.body.children[4].appendChild(a3);
-    a3.addEventListener("click", function () {
-        correctcw();
-        question7();
-        correct();
-    });
-
-    a4 = document.createElement("BUTTON");
-    a4.innerHTML = "Coding";
-    document.body.children[4].appendChild(a4);
-    a4.addEventListener("click", function () {
-        wrongcw();
-        question7()
-        wrong();
-    });
-}
-
-// Q #7
-function question7() {
-    a1.remove();
-    a2.remove();
-    a3.remove();
-    a4.remove();
-    question.textContent = "HTML is in charge of the ___";
-       
-    a1 = document.createElement("BUTTON");
-    a1.innerHTML = "Content";
-    document.body.children[4].appendChild(a1);
-    a1.addEventListener("click", function () {
-        correctcw();
-        question8();
-        correct();
-    });
- 
-    a2 = document.createElement("BUTTON");
-    a2.innerHTML = "Colors";
-    document.body.children[4].appendChild(a2);
-    a2.addEventListener("click", function () {
-        wrongcw();
-        question8()
-        wrong();
-    });
-
-    a3 = document.createElement("BUTTON");
-    a3.innerHTML = "Size";
-    document.body.children[4].appendChild(a3);
-    a3.addEventListener("click", function () {
-        wrongcw();
-        question8()
-        wrong();
-    });
-
-    a4 = document.createElement("BUTTON");
-    a4.innerHTML = "Function";
-    document.body.children[4].appendChild(a4);
-    a4.addEventListener("click", function () {
-        wrongcw();
-        question8()
-        wrong();
-    });
-}
-
-// Q #8
-function question8() {
-    a1.remove();
-    a2.remove();
-    a3.remove();
-    a4.remove();
-    question.textContent = "If . represents class, # represents ___";
-       
-    a1 = document.createElement("BUTTON");
-    a1.innerHTML = "Number";
-    document.body.children[4].appendChild(a1);
-    a1.addEventListener("click", function () {
-        wrongcw();
-        question9()
-        wrong();
-    });
- 
-    a2 = document.createElement("BUTTON");
-    a2.innerHTML = "Id";
-    document.body.children[4].appendChild(a2);
-    a2.addEventListener("click", function () {
-        correctcw();
-        question9();
-        correct();
-    });
-
-    a3 = document.createElement("BUTTON");
-    a3.innerHTML = "Pound";
-    document.body.children[4].appendChild(a3);
-    a3.addEventListener("click", function () {
-        wrongcw();
-        question9()
-        wrong();
-    });
-
-    a4 = document.createElement("BUTTON");
-    a4.innerHTML = "Hash";
-    document.body.children[4].appendChild(a4);
-    a4.addEventListener("click", function () {
-        wrongcw();
-        question9()
-        wrong();
-    });
-}
-
-// Q #9
-function question9() {
-    a1.remove();
-    a2.remove();
-    a3.remove();
-    a4.remove();
-    question.textContent = "Which of the following is NOT a loop?";
-       
-    a1 = document.createElement("BUTTON");
-    a1.innerHTML = "for";
-    document.body.children[4].appendChild(a1);
-    a1.addEventListener("click", function () {
-        wrongcw();
-        question10()
-        wrong();
-    });
- 
-    a2 = document.createElement("BUTTON");
-    a2.innerHTML = "while";
-    document.body.children[4].appendChild(a2);
-    a2.addEventListener("click", function () {
-        wrongcw();
-        question10()
-        wrong();
-    });
-
-    a3 = document.createElement("BUTTON");
-    a3.innerHTML = "do-while";
-    document.body.children[4].appendChild(a3);
-    a3.addEventListener("click", function () {
-        wrongcw();
-        question10()
-        wrong();
-    });
-
-    a4 = document.createElement("BUTTON");
-    a4.innerHTML = "don't";
-    document.body.children[4].appendChild(a4);
-    a4.addEventListener("click", function () {
-        correctcw();
-        question10();
-        correct();
-    });
-}
-
-// Q #10
-function question10() {
-    a1.remove();
-    a2.remove();
-    a3.remove();
-    a4.remove();
-    question.textContent = "Inside which HTML element (< >) do we put the JavaScript?";
-       
-    a1 = document.createElement("BUTTON");
-    a1.innerHTML = "js";
-    document.body.children[4].appendChild(a1);
-    a1.addEventListener("click", function () {
-        wrong();
         wrongcw();
         postquiz();
+        wrong();
     });
  
     a2 = document.createElement("BUTTON");
-    a2.innerHTML = "scripting";
+    a2.innerHTML = "no";
     document.body.children[4].appendChild(a2);
     a2.addEventListener("click", function () {
-        wrong();
         wrongcw();
-        postquiz(); 
+        postquiz();
+        wrong();
     });
 
     a3 = document.createElement("BUTTON");
-    a3.innerHTML = "script";
+    a3.innerHTML = "..no";
     document.body.children[4].appendChild(a3);
     a3.addEventListener("click", function () {
+        wrongcw();
+        postquiz();
+        wrong();
+    });
+
+    a4 = document.createElement("BUTTON");
+    a4.innerHTML = "yeth c:";
+    document.body.children[4].appendChild(a4);
+    a4.addEventListener("click", function () {
         correctcw();
         postquiz();
         correct();
     });
-
-    a4 = document.createElement("BUTTON");
-    a4.innerHTML = "javascript";
-    document.body.children[4].appendChild(a4);
-    a4.addEventListener("click", function () {
-        wrong();
-        wrongcw();
-        postquiz();
-    });
-}
+};
 
 // Post-quiz
 function postquiz() {
@@ -546,7 +322,13 @@ function postquiz() {
     a3.remove();
     a4.remove();
     highscore.style.visibility = "visible";
-    question.textContent = "Quiz Complete! Your score is " + score + ". Please enter your name below."
+    question.textContent = "Quiz Complete! Your score is " + score + ". Please enter your name below, and follow the link in the corner!" 
+    a.appendChild(link);  
+    a.title = "Link";  
+      
+    // Set the href property. 
+    a.href = "https://music.apple.com/us/playlist/b-my-valentine/pl.u-55D6X46SxENG35";  
+    document.body.appendChild(a);  
     
     a1 = document.createElement("BUTTON");
     a1.innerHTML = "Submit";
@@ -556,6 +338,18 @@ function postquiz() {
         localStorage.setItem("score", score);
         scorepage();
     });
+    var img = new Image(); 
+    var div = document.getElementById('x'); 
+ 
+ 
+    img.onload = function() { 
+ 
+        div.innerHTML += '<img src="'+img.src+'" />';  
+ 
+}; 
+ 
+ 
+    img.src = 'assets/frame.png'; 
 }
 
 // High score page
